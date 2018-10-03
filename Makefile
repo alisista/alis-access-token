@@ -11,3 +11,9 @@ help: ## help
 docker-build: ## Build Docker
 	@docker build -t $(NAME):latest .
 
+.PHONY: docker-run
+docker-run: ## Run Docker
+	@docker run -it $(NAME)
+
+.PHONY: show
+show: docker-build docker-run ## Show ALIS access token
