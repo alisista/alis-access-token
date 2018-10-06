@@ -1,4 +1,4 @@
-## Get Your ALIS Access Token
+## Get Your ALIS ID Token
 
 ### Case1: One liner
 
