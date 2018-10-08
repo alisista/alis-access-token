@@ -3,7 +3,7 @@
 - git
 - docker
 
-## Get Your ALIS ID Token
+## Get Your ALIS ID Token(not need `git`)
 
 ### Case1: One liner
 
